@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 195.319 229">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #707070;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #f7f8fc;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path-3);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="192" height="229" transform="translate(1331 190)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_149" data-name="Path 149" class="cls-2" d="M981,509.788c26.3-57.583,8-119.1,27.653-136.55s105.836-14.221,111.061-9.1-26.4,161.13-26.4,161.13S954.7,567.371,981,509.788Z" transform="translate(-259 -263)"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-3" width="192" height="229" transform="translate(1331 190)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_4" data-name="Group 4" transform="translate(-718.681 -54)">
+    <g id="Group_3" data-name="Group 3">
+      <g id="Mask_Group_2" data-name="Mask Group 2" class="cls-4" transform="translate(-609 -136)">
+        <path id="Path_148" data-name="Path 148" class="cls-2" d="M1322.263,404.644s25.434-15.489,34.593-42.786c3.7-11.021-10.4-38.146,0-57.351,35.5-65.544,76.223-54.865,115.613-67.365s29.954-48.755,12.43-79.934-82.526-44.782-82.526-44.782l-37.324,9.1-52.8,52.8-1.821,217.57Z"/>
+      </g>
+    </g>
+    <g id="Mask_Group_4" data-name="Mask Group 4" class="cls-5">
+      <g id="Mask_Group_3" data-name="Mask Group 3" class="cls-6" transform="translate(-609 -136)">
+        <path id="Path_150" data-name="Path 150" class="cls-2" d="M1322.263,404.644s25.434-15.489,34.593-42.786c3.7-11.021-10.4-38.146,0-57.351,35.5-65.544,76.223-54.865,115.613-67.365s29.954-48.755,12.43-79.934-82.526-44.782-82.526-44.782l-37.324,9.1-52.8,52.8-1.821,217.57Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

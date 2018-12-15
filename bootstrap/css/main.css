@@ -1,0 +1,16 @@
+body {
+	background: url('../images/decoration.svg') no-repeat;
+	background-size: 30%;
+}
+
+a {
+	color: #6b747c;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #33393f;
+	border-top: 4px solid #107bfd;
+	padding-top: 4px;
+	text-decoration: none;
+}

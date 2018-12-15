@@ -1,0 +1,120 @@
+/* ---- Imports ---- */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500");
+/* ---- Variables ---- */
+/* ---- General ---- */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background-color: #fefefe;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.6rem;
+  background: url("../images/decoration.svg") no-repeat top left;
+  background-size: 30%;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ---- Header ---- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 2rem;
+}
+header .logo {
+  padding-top: 1rem;
+  color: #55A0FB;
+}
+header .logo__title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+header .navigation__item {
+  display: inline;
+  list-style: none;
+}
+header .navigation__item:not(:last-child) {
+  margin-right: 1rem;
+}
+header .navigation__item__link {
+  font-size: 1.5rem;
+  color: #9DB0BE;
+  text-decoration: none;
+  font-weight: 300;
+}
+header .navigation__item__link--active {
+  color: #4B566A;
+}
+header .navigation__item__link:hover {
+  border-top: 4px solid #55A0FB;
+  padding-top: 10px;
+}
+
+/* ---- Main ---- */
+.main {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding: 6rem;
+  margin-top: 6rem;
+  background: url("../images/illustration.svg") no-repeat right;
+}
+.main__title {
+  font-size: 3.5rem;
+  color: #202125;
+}
+.main__description {
+  width: 55%;
+  color: #696969;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+.main__button {
+  width: 250px;
+  background-color: #55A0FB;
+  border: none;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+.main__button__link {
+  color: #fefefe;
+  text-decoration: none;
+}
+
+/* ---- Footer ---- */
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 2rem 6rem;
+}
+.footer__description {
+  font-size: 1rem;
+  color: #9DB0BE;
+}
+.footer__social {
+  margin-top: 0.4rem;
+}
+.footer__social a {
+  text-decoration: none;
+}
+.footer__social a img {
+  width: 5%;
+}
+
+/*# sourceMappingURL=main.css.map */

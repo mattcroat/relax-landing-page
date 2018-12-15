@@ -1,0 +1,121 @@
+/* ---- Imports ---- */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500")
+
+/* ---- Variables ---- */
+$off-white: #fefefe
+$blue-text: #55A0FB
+$active-text: #4B566A
+$muted-text: #9DB0BE
+$title-text: #202125
+$sub-text: #696969
+
+/* ---- General ---- */
+*
+  padding: 0
+  margin: 0
+
+*, *:before, *:after
+  box-sizing: inherit
+
+html
+  box-sizing: border-box
+  font-size: 10px
+  background-color: $off-white
+
+body
+  font-family: Montserrat, sans-serif
+  font-size: 1.6rem
+  background: url('../images/decoration.svg') no-repeat top left
+  background-size: 30%
+
+.wrapper
+  max-width: 1200px
+  margin: 0 auto
+
+/* ---- Header ---- */
+header
+  display: flex
+  justify-content: space-between
+  align-items: baseline
+  padding-top: 2rem
+
+  .logo
+    padding-top: 1rem
+    color: $blue-text
+
+    &__title
+      font-size: 2rem
+      font-weight: bold
+
+  .navigation
+    // navigation
+
+    &__item
+      display: inline
+      list-style: none
+      
+      &:not(:last-child)
+        margin-right: 1rem
+      
+      &__link
+        font-size: 1.5rem
+        color: $muted-text
+        text-decoration: none
+        font-weight: 300
+      
+        &--active
+          color: $active-text  
+      
+        &:hover
+          border-top: 4px solid $blue-text
+          padding-top: 10px      
+
+/* ---- Main ---- */
+.main
+  height: 500px
+  display: flex
+  align-items: center
+  padding: 6rem
+  margin-top: 6rem
+  background: url('../images/illustration.svg') no-repeat right
+
+  &__title
+    font-size: 3.5rem
+    color: $title-text
+
+  &__description
+    width: 55%
+    color: $sub-text
+    font-weight: 300
+    margin-top: .5rem
+  
+  &__button
+    width: 250px
+    background-color: $blue-text
+    border: none
+    padding: 1.5rem
+    border-radius: 2rem
+    margin-top: 2rem
+
+    &__link
+      color: $off-white
+      text-decoration: none
+
+/* ---- Footer ---- */
+.footer
+  position: absolute
+  bottom: 0
+  padding: 0 0 2rem 6rem
+
+  &__description
+    font-size: 1rem
+    color: $muted-text
+
+  &__social
+    margin-top: .4rem
+
+    a
+      text-decoration: none
+
+      img
+        width: 5%
